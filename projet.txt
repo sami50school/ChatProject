@@ -1,0 +1,28 @@
+Projet "Chat"
+Revenir à Projets
+Le but de ce projet est de créer un système de discussion. Le "chat" est hébergé sur un serveur multithreadé.  Les clients se connectent au serveur et peuvent :
+
+Créer un compte (simplement - BDD ou avec des fichiers login, mdp)
+S'authentifier
+Lister les topics
+créer des topics
+joindre des topics
+envoyer des messages sur le topic; ces messages doivent être reçus par les autres clients connectés sur ce dernier
+A vous d'enrichir les fonctionnalités de ce système. Les communications doivent se faire en utilisant des flux avec connexion (Socket et ServerSocket). L'IHM graphique est à rajouter à la fin mais n'est pas obligatoire.
+
+Ce projet implique une conception objet en amont afin de bien le réaliser. Il faut présenter un diagramme de classes au minimum avec des diagrammes autres (diagrammes de séquences par exemple, diag. etats-Transistions, ...) pour expliciter l'architecture de votre application et les interactions entre les différents objets. 
+
+Il est interdit d'utiliser une base de données côté serveur sauf au moment du lancement éventuellement ou de la fermeture du système. Vous pourriez par ailleurs vous en passer en utilisant la sérialisation. Le système ne doit pas devenir une interface SQL ou autre !
+
+Bonus 
+
+Les communications peuvent se faire aussi via des flux sans connexion (DatagramSocket). Intégrer cette solution à la solution initiale et laisser le choix à l'utilisateur (côté client et côté serveur).
+Créer une interface graphique côté client pour faciliter l'utilisation du chat (liste des topics, plusieurs fenêtres pour chatter sur plusieurs topics)
+A Rendre
+Le travail est à faire au maximum en binôme ou tout seul (choisissez un binôme de votre niveau). La dernière séance sera consacrée au contrôle individuel de ce que vous auriez fait ; un manque de maîtrise impliquerait que la note finale du groupe (monôme ou binôme) serait au moins divisée par 2.
+
+Un rapport complet expliquant votre analyse, votre conception (diag. UML de préférence) et votre réalisation,
+
+Le code source
+
+Modifié le: mercredi 19 septembre 2018, 19:43
